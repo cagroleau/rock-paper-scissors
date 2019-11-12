@@ -1,0 +1,23 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "Simple Rock Paper Scissors web app. Written by Chris Groleau 11/11/2019",
+  "main": "script.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xriskarasu/rock-paper-scissors.git"
+  },
+  "keywords": [],
+  "author": "Chris Groleau",
+  "homepage": "https://xriskarasu.github.io/rock-paper-scissors",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xriskarasu/rock-paper-scissors/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
