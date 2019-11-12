@@ -1,0 +1,31 @@
+body {
+  background-color: #333;
+  font-family: monospace;
+  font-size: 2rem;
+  color: #CCC;
+  text-align: center;
+  text-shadow: 10px 10px 5px black;
+}
+
+hr {
+  color: #CCC;
+  width: 66%;
+  box-shadow: 10px 10px 5px black;
+}
+
+.weapon {
+  display: inline;
+}
+
+button {
+  height: 3rem;
+  width: 66%;
+  margin: 1rem;
+  font-size: 2rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0
+}
+

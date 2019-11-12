@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock, Paper, Scissors!</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Rock, Paper, Scissors!</h1>
+      <hr>
+    </header>
+    <main>
+      <h2>Choose your weapon.</h2>
+      <div id="select-weapon">
+        <div class="weapon">
+          <input type="radio" id="rock" name="weapon" value="rock"
+          checked>
+          <label for="rock">Rock</label>
+        </div>
+
+        <div class="weapon">
+          <input type="radio" id="paper" name="weapon" value="paper">
+          <label for="paper">Paper</label>
+        </div>
+
+        <div class="weapon">
+          <input type="radio" id="scissors" name="weapon" value="scissors">
+          <label for="scissors">Scissors</label>
+        </div>
+      </div>
+
+      <button id="fight" type="button" onclick="game()">Fight!</button>
+
+      <div id="result"></div>
+
+    </main>
+    <footer><p>&copy2019 Chris Groleau</p></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
